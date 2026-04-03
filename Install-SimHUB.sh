@@ -70,7 +70,7 @@ echo "Using WINEPREFIX: $WINEPREFIX"
 # ---------------------------------------------------------------------------
 # Clean registry BEFORE installing dotnet48 (non-fatal)
 # ---------------------------------------------------------------------------
-echo "Cleaning .NET registry keys BEFORE dotnet48 installation..."
+echo "Clearing Steam .NET registry stubs BEFORE dotnet48 installation..."
 wineserver -k || true
 
 wine reg delete "HKLM\\Software\\Microsoft\\NET Framework Setup\\NDP\\v4" /f >/dev/null 2>&1 || true
