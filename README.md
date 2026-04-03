@@ -1,7 +1,9 @@
-# SimHUB on Linux V2
+# SimHUB on Linux / Wine
 
- Part1:
- SimHUB on Linux V2 - Uses Proton Wine for better compatibility.
- SimHUB runs properly from user /home/.wine PREFIX.
+ This installs a working SimHUB to /home/.wine - Mainly for tests.
 
- Part2: NOT Implemented yet, seems to be more difficult using memory bridging.
+ Remember, games run via Steam do not share the memory with Linux, which makes this 
+ default wine prefix to not receive any game shared memory.
+
+If you want a fully working SimHUB:
+ You may use the other script from this github, that installs per game and can read game m
