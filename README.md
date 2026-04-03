@@ -6,4 +6,6 @@
  default wine prefix to not receive any game shared memory.
 
 If you want a fully working SimHUB:
- You may use the other script from this github, that installs per game and can read game m
+ You may use the other script from this github, that installs per game and read game
+ shared memory properly.
+ 
